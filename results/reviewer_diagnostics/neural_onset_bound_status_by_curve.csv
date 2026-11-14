@@ -1,0 +1,62 @@
+curve_id,record_id,source_short,response_class,onset_bound_status,onset_upper_normalized,onset_normalized,onset_days
+Aubert2013_Fig2_C20,DEF-000998,Aubert et al. 2013,large,unbounded: activation not observed in training,3.0,2.657865285873413,2437.71961997509
+Aubert2013_Fig2_CN20,DEF-000998,Aubert et al. 2013,large,bounded: activation observed in training,0.5573333501815796,0.4776569902896881,376.46296861186624
+Aubert2013_Fig2_CS20,DEF-000998,Aubert et al. 2013,large,bounded: activation observed in training,0.1968570947647094,0.1770400702953338,139.49589074808358
+Aubert2013_Fig2_CS40,DEF-000998,Aubert et al. 2013,large,bounded: activation observed in training,0.1783777475357055,0.1612647771835327,127.13082938575744
+Kawabata2023_Fig5a_100mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.2622798681259155,0.251171737909317,35.64202312454581
+Kawabata2023_Fig5a_200mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.2476428300142288,0.2370880246162414,36.9788562874198
+Kawabata2023_Fig5a_300mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.2476428300142288,0.2378723174333572,37.10118322239816
+Kawabata2023_Fig5a_400mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.2476428300142288,0.2387140393257141,37.23246742767096
+Kawabata2023_Fig5a_500mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.2476428300142288,0.2341562658548355,36.52158694164455
+Kawabata2023_Fig5b_150mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.2922556698322296,0.2792502641677856,43.55159194934368
+Kawabata2023_Fig5b_250mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.246852695941925,0.2372488230466842,37.00108919353783
+Kawabata2023_Fig5b_350mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.246852695941925,0.2325082570314407,36.26175525836646
+Kawabata2023_Fig5b_450mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.246852695941925,0.2354107946157455,36.71443211747706
+Kawabata2023_Fig5b_50mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.6070089340209961,0.5778496861457825,82.03269714462756
+Kawabata2023_Fig5b_550mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.2922556698322296,0.2749018967151642,42.87342490980029
+Kawabata2023_Fig6a_100mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.26199871301651,0.2408080995082855,34.202455989360814
+Kawabata2023_Fig6a_200mm,DEF-001010,Kawabata et al. 2023,moderate,bounded: activation observed in training,0.2474746853113174,0.2351513504981994,36.68831370472908
+Kawabata2023_Fig6a_300mm,DEF-001010,Kawabata et al. 2023,moderate,bounded: activation observed in training,0.2474746853113174,0.2354040294885635,36.72773668080568
+Kawabata2023_Fig6a_400mm,DEF-001010,Kawabata et al. 2023,moderate,bounded: activation observed in training,0.2474746853113174,0.2353722006082534,36.72277073889971
+Kawabata2023_Fig6a_500mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.2474746853113174,0.2261656373739242,35.286362743079664
+Kawabata2023_Fig6b_150mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.2920066118240356,0.2783344089984894,43.41432278117538
+Kawabata2023_Fig6b_250mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.2920066118240356,0.2790727913379669,43.529494920104746
+Kawabata2023_Fig6b_350mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.2468851506710052,0.2345040291547775,36.57770396353305
+Kawabata2023_Fig6b_450mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.2468851506710052,0.2309261858463287,36.01963554212451
+Kawabata2023_Fig6b_50mm,DEF-001010,Kawabata et al. 2023,moderate,bounded: activation observed in training,0.4094904363155365,0.3916135132312774,55.603244676142936
+Kawabata2023_Fig6b_550mm,DEF-001010,Kawabata et al. 2023,large,bounded: activation observed in training,0.2920066118240356,0.2760139405727386,43.052378436595205
+Martin2023_Fig4_HR_continuous_immersion,DEF-001001,Martin et al. 2023,large,bounded: activation observed in training,0.240023136138916,0.2136693596839904,74.79175431698562
+Martin2023_Fig4_MR_continuous_immersion,DEF-001001,Martin et al. 2023,large,bounded: activation observed in training,0.2749063968658447,0.2572821974754333,72.00402491426468
+Martin2023_Fig6_HR_wetting_drying,DEF-001001,Martin et al. 2023,moderate,bounded: activation observed in training,0.6845565438270569,0.6140658855438232,239.50350327277184
+Martin2023_Fig6_MR_wetting_drying,DEF-001001,Martin et al. 2023,moderate,bounded: activation observed in training,0.4763550758361816,0.4430432915687561,136.41923208010195
+Pavoine2007_Fig1_circle_10d,DEF-000170,Brunetaud et al. 2007,moderate,bounded: activation observed in training,0.4843545854091644,0.4533975720405578,180.40372013193368
+Pavoine2007_Fig1_circle_2d,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.68794059753418,636.5795958328247
+Pavoine2007_Fig1_circle_2h,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.7711613178253174,695.1153338019848
+Pavoine2007_Fig1_circle_6h,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.759998321533203,653.6448824920654
+Pavoine2007_Fig1_square_10d,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.7186219692230225,605.9944300496578
+Pavoine2007_Fig1_square_2d,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.633038282394409,586.9173983371257
+Pavoine2007_Fig1_square_2h,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.872568130493164,600.3265233192443
+Pavoine2007_Fig1_square_6h,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.8004753589630127,669.0559670591354
+Pavoine2007_Fig1_triangle_10d,DEF-000170,Brunetaud et al. 2007,moderate,bounded: activation observed in training,0.2791386246681213,0.2565556764602661,113.11077974915504
+Pavoine2007_Fig1_triangle_2d,DEF-000170,Brunetaud et al. 2007,moderate,bounded: activation observed in training,0.6547562479972839,0.6126657128334045,239.483062492311
+Pavoine2007_Fig1_triangle_2h,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.769826889038086,1047.016722671509
+Pavoine2007_Fig1_triangle_6h,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.792287588119507,1133.2443330631256
+Pavoine2007_Fig2_circle_6h,DEF-000170,Brunetaud et al. 2007,moderate,bounded: activation observed in training,0.3511650860309601,0.3273420929908752,163.0252005459666
+Pavoine2007_Fig2_square_10d,DEF-000170,Brunetaud et al. 2007,moderate,bounded: activation observed in training,0.6316937208175659,0.609525203704834,243.19507055139545
+Pavoine2007_Fig2_square_2d,DEF-000170,Brunetaud et al. 2007,large,bounded: activation observed in training,0.2637704312801361,0.2525287568569183,120.48475277027488
+Pavoine2007_Fig2_square_2h,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.8297369480133057,1049.9682350864412
+Pavoine2007_Fig2_square_6h,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.754708766937256,1022.129178554535
+Pavoine2007_Fig2_triangle_2h,DEF-000170,Brunetaud et al. 2007,moderate,bounded: activation observed in training,0.5192365050315857,0.49524986743927,173.92481994652746
+Pavoine2007_Fig2_triangle_6h,DEF-000170,Brunetaud et al. 2007,moderate,bounded: activation observed in training,0.3514789640903473,0.3349853157997131,169.53539835560323
+Pavoine2007_Fig3_circle_2h,DEF-000170,Brunetaud et al. 2007,negligible,bounded: activation observed in training,1.0896661281585691,1.0203590393066406,504.36143241119385
+Pavoine2007_Fig3_circle_6h,DEF-000170,Brunetaud et al. 2007,moderate,bounded: activation observed in training,0.7915442585945129,0.7504241466522217,310.84669341945647
+Pavoine2007_Fig3_square_2h,DEF-000170,Brunetaud et al. 2007,moderate,bounded: activation observed in training,0.5337523818016052,0.5023138523101807,168.42332311034204
+Pavoine2007_Fig3_square_6h,DEF-000170,Brunetaud et al. 2007,moderate,bounded: activation observed in training,0.3485887348651886,0.3285168409347534,165.68122690546514
+Pavoine2007_Fig4_circle_6h,DEF-000170,Brunetaud et al. 2007,moderate,bounded: activation observed in training,0.5802563428878784,0.5481343865394592,249.6686354560852
+Pavoine2007_Fig4_square_10d,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.785970687866211,1499.8746813144685
+Pavoine2007_Fig4_square_2h,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.795348882675171,1504.9235919191835
+Pavoine2007_Fig4_square_6h,DEF-000170,Brunetaud et al. 2007,negligible,unbounded: activation not observed in training,3.0,2.829594135284424,1265.810447637081
+Tiecher2021_Fig2_CP_II-F,DEF-000753,Tiecher et al. 2021,moderate,bounded: activation observed in training,0.1500000059604644,0.1330400258302688,34.446989568024875
+Tiecher2021_Fig2_CP_II-Z,DEF-000753,Tiecher et al. 2021,moderate,bounded: activation observed in training,0.1500000059604644,0.1358453333377838,36.11842138251662
+Tiecher2021_Fig2_CP_IV,DEF-000753,Tiecher et al. 2021,moderate,bounded: activation observed in training,0.1500000059604644,0.1341272592544555,34.72849822068215
+Tiecher2021_Fig2_CP_V-ARI,DEF-000753,Tiecher et al. 2021,large,bounded: activation observed in training,0.1500000059604644,0.1418210417032241,34.590010250374675

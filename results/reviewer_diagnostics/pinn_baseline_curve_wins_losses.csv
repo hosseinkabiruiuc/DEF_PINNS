@@ -1,0 +1,3 @@
+comparison,curves,pinn_wins,ties,pinn_losses,median_paired_difference_percent,mean_paired_difference_percent
+pinn_shifted_first_order vs persistence,61,20,0,41,0.003454953777774203,-0.00392940968582834
+pinn_shifted_first_order vs linear_last5,61,30,0,31,0.0003226286876205002,-0.04992165810640448

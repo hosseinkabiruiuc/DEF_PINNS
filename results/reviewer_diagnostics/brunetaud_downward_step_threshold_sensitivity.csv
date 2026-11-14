@@ -1,0 +1,4 @@
+maximum_downward_step_threshold_percent,all_curves_accepted,brunetaud_curves_accepted,brunetaud_curves_excluded,accepted_unique_observations_before_cap
+0.01,59,25,15,1654
+0.02,61,27,13,1768
+0.05,63,29,11,1840

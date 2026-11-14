@@ -1,0 +1,9 @@
+sensitivity,model,seeds,physics_weight,pooled_mae_mean_percent,pooled_rmse_mean_percent,mean_curve_mae_percent,run_directory
+Gate slope 40,pinn_shifted_first_order,5,0.0003,0.0563050573750286,0.109896470616451,0.0540188406539567,.selected_gate_40
+Gate slope 100,pinn_shifted_first_order,5,0.0003,0.055949485050889,0.1092933826357278,0.0537208109231104,.selected_gate_100
+9 collocation points,pinn_shifted_first_order,5,0.0003,0.0563749876571487,0.1087475528128848,0.0543563364537138,.selected_collocation_9
+36 collocation points,pinn_shifted_first_order,5,0.0003,0.0561234896949413,0.1092883986197487,0.0541431986715704,.selected_collocation_36
+75% history,pinn_shifted_first_order,10,0.0003,0.122902968134806,0.2094644715836041,0.1276161372126235,.selected_truncation_75_pinn
+50% history,pinn_shifted_first_order,10,0.0003,0.2190745104104873,0.3456062654601156,0.2443104114274807,.selected_truncation_50_pinn
+75% history,data_only,10,0.0003,0.1836015800421085,0.2738752954171132,0.1848326594072338,.selected_truncation_75_data
+50% history,data_only,10,0.0003,0.3151276095174175,0.4201997507267214,0.3209869052169015,.selected_truncation_50_data

@@ -1,0 +1,2 @@
+model,split,seeds,mae_mean_percent,mae_std_percent,mae_min_percent,mae_max_percent,rmse_mean_percent,rmse_std_percent,rmse_min_percent,rmse_max_percent,r2_mean,r2_std,mean_curve_mae_mean_percent
+shape_regularized,terminal_test,20,0.0831621864659665,0.0282841649869729,0.0574549637288954,0.1838932882767726,0.1402617397003605,0.0486457549132327,0.1025712315177523,0.3088622963727706,0.9247027783989206,0.067125322755915,0.077378461185524

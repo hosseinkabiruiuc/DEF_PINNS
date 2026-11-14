@@ -1,0 +1,30 @@
+{
+  "curves": 61,
+  "time_scaling": "training_only",
+  "train_observation_fraction": 1.0,
+  "gate_slope": 200.0,
+  "activation_transition_width_2_to_98_percent_tau": 0.038918202981106265,
+  "response_derived_onset_bound": true,
+  "activation_detection_percent": 0.02,
+  "activation_margin_tau": 0.1,
+  "candidate_models": [
+    "shifted_first_order"
+  ],
+  "selection_criterion": "declared primary pooled terminal RMSE; curve-balanced metrics are complementary",
+  "best_terminal_model": "shifted_first_order",
+  "terminal_metrics": [
+    {
+      "model": "shifted_first_order",
+      "split": "terminal_test",
+      "observations": 366,
+      "mae_percent": 0.07991508628475928,
+      "rmse_percent": 0.16762375509241934,
+      "r2": 0.903488089758998,
+      "holdout_variance": 0.29113218463006196,
+      "mean_curve_mae_percent": 0.10460925487786543,
+      "median_curve_mae_percent": 0.042912174305790175,
+      "mean_curve_rmse_percent": 0.11886736503051351,
+      "median_curve_rmse_percent": 0.04818706894184566
+    }
+  ]
+}

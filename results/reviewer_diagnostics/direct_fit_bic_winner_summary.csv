@@ -1,0 +1,10 @@
+bic_winner,response_class,curves
+first_order,moderate,3
+first_order,negligible,11
+gompertz,large,17
+gompertz,moderate,7
+gompertz,negligible,4
+shifted_avrami,large,8
+shifted_avrami,moderate,5
+shifted_first_order,large,1
+shifted_first_order,moderate,5

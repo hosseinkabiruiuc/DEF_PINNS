@@ -1,0 +1,12 @@
+descriptor,reported_curves,missing_curves,reported_percent
+heat_temperature_C,61,0,100.0
+heat_duration_days,61,0,100.0
+storage_temperature_C_std,61,0,100.0
+water_cement_ratio_std,61,0,100.0
+SO3_percent_std,34,27,55.73770491803278
+Al2O3_percent_std,12,49,19.672131147540984
+SO3_Al2O3_ratio_std,12,49,19.672131147540984
+alkali_percent_std,61,0,100.0
+scm_percent_std,61,0,100.0
+moisture_index,61,0,100.0
+restraint_index,61,0,100.0

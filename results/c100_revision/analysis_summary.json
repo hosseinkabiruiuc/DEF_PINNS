@@ -1,0 +1,89 @@
+{
+  "flat_holdout_increment_below_0p01_percent": 14,
+  "net_declining_holdouts": 7,
+  "holdout_curves": 61,
+  "identifiability": {
+    "target_scale_E_star_percent": 2.026257,
+    "training_horizon_days": {
+      "min": 141.903,
+      "median": 258.922,
+      "max": 917.172
+    },
+    "kappa": {
+      "q1": 0.15672965347766876,
+      "median": 0.19072638452053065,
+      "q3": 0.2892754226922989,
+      "below_0p3": 47,
+      "between_0p3_1": 14,
+      "above_1": 0
+    },
+    "threshold_fraction_pinn": {
+      "q1": 0.03981265384266447,
+      "median": 0.054399560629626864,
+      "q3": 0.3025445134950736
+    },
+    "storage_temperature_vs_rate": {
+      "n": 61,
+      "rho": -0.2214467456186912,
+      "p": 0.0863197254078557
+    },
+    "sulfate_aluminate_vs_capacity": {
+      "n": 12,
+      "rho": 0.7065124561888183,
+      "p": 0.01021127978722137
+    },
+    "alkali_vs_capacity": {
+      "n": 61,
+      "rho": 0.3464597529179725,
+      "p": 0.00623364417678346
+    }
+  },
+  "conformal": {
+    "0.8": {
+      "calibration_n": 302,
+      "half_width_percent": 0.0701457205343246,
+      "coverage": 0.773224043715847
+    },
+    "0.9": {
+      "calibration_n": 302,
+      "half_width_percent": 0.12802206860351562,
+      "coverage": 0.907103825136612
+    }
+  },
+  "digitization_uncertainty": {
+    "source_half_marker_uncertainty_percent": {
+      "Aubert et al. 2013": 0.009654957140467355,
+      "Brunetaud et al. 2007": 2.7245581360746626e-05,
+      "Kawabata et al. 2023": 0.005520919012214786,
+      "Martin et al. 2023": 0.03370197276826354,
+      "Tiecher et al. 2021": 0.018916245127827625
+    },
+    "monte_carlo_curve_mean_difference": {
+      "data_only_minus_pinn_shifted_first_order": {
+        "median": 0.009215556955165476,
+        "ci_low": 0.008398403731841265,
+        "ci_high": 0.009932438009847933
+      },
+      "shifted_first_order_minus_pinn_shifted_first_order": {
+        "median": 0.02503873543969378,
+        "ci_low": 0.024120662325253936,
+        "ci_high": 0.02606721738572327
+      },
+      "persistence_minus_pinn_shifted_first_order": {
+        "median": 0.012626409696872395,
+        "ci_low": 0.011322813721818172,
+        "ci_high": 0.013890258725417623
+      }
+    }
+  },
+  "profile_subset": {
+    "curves": 10,
+    "localization_best_m_median": 2.35,
+    "offset_best_abs_median_percent": 0.01
+  },
+  "mixed_error_model": {
+    "converged": true,
+    "observations": 1830,
+    "aic": null
+  }
+}

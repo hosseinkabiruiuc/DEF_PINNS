@@ -1,0 +1,10 @@
+observation_id,curve_id,record_id,source_short,time_days,expansion_percent_raw,expansion_percent
+DEF-OBS-001280,Martin2023_Fig6_HR_wetting_drying,DEF-001001,Martin et al. 2023,59.983,-0.002728,0.0
+DEF-OBS-001281,Martin2023_Fig6_HR_wetting_drying,DEF-001001,Martin et al. 2023,80.953,-0.000426,0.0
+DEF-OBS-001282,Martin2023_Fig6_HR_wetting_drying,DEF-001001,Martin et al. 2023,84.003,-0.002321,0.0
+DEF-OBS-001285,Martin2023_Fig6_HR_wetting_drying,DEF-001001,Martin et al. 2023,108.996,-0.00178,0.0
+DEF-OBS-001286,Martin2023_Fig6_HR_wetting_drying,DEF-001001,Martin et al. 2023,123.017,-0.000698,0.0
+DEF-OBS-001339,Martin2023_Fig6_MR_wetting_drying,DEF-001001,Martin et al. 2023,33.955,-0.002388,0.0
+DEF-OBS-001340,Martin2023_Fig6_MR_wetting_drying,DEF-001001,Martin et al. 2023,38.954,-0.001847,0.0
+DEF-OBS-001342,Martin2023_Fig6_MR_wetting_drying,DEF-001001,Martin et al. 2023,66.874,-0.000223,0.0
+DEF-OBS-001343,Martin2023_Fig6_MR_wetting_drying,DEF-001001,Martin et al. 2023,69.922,-8.7e-05,0.0

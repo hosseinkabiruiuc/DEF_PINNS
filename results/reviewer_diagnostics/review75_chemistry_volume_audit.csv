@@ -1,0 +1,4 @@
+route,solid_increment_cm3_per_mol,water_moles,increment_per_initial_afm,internal_water_volume_cm3_per_mol,net_increment_internal_water_cm3_per_mol
+gypsum,249.6,16,0.8077669902912621,288.0,-38.400000000000006
+anhydrite,306.2,20,0.9909385113268608,360.0,-53.80000000000001
+C-S-H/portlandite upper bound,331.8,18,1.0737864077669903,324.0,7.800000000000011

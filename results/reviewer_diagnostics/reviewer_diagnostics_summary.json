@@ -1,0 +1,85 @@
+{
+  "prespecified_tests": 12,
+  "primary_curves": 61,
+  "matched_primary_seeds": [
+    11,
+    37,
+    71,
+    107,
+    151
+  ],
+  "direct_parameter_bound_hits": 138,
+  "direct_curves_with_any_bound_hit": 59,
+  "neural_shifted_first_order_onset_response_counts": [
+    {
+      "onset_bound_status": "bounded: activation observed in training",
+      "response_class": "large",
+      "curves": 25
+    },
+    {
+      "onset_bound_status": "bounded: activation observed in training",
+      "response_class": "moderate",
+      "curves": 20
+    },
+    {
+      "onset_bound_status": "bounded: activation observed in training",
+      "response_class": "negligible",
+      "curves": 1
+    },
+    {
+      "onset_bound_status": "unbounded: activation not observed in training",
+      "response_class": "large",
+      "curves": 1
+    },
+    {
+      "onset_bound_status": "unbounded: activation not observed in training",
+      "response_class": "negligible",
+      "curves": 14
+    }
+  ],
+  "terminal_segments_with_any_downward_step": 40,
+  "terminal_segments_with_net_decline": 6,
+  "curves_capped_at_60_points": 3,
+  "observations_removed_by_60_point_cap": 43,
+  "environment": {
+    "python": "3.12.13",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+    "packages_in_audit_runtime": {
+      "numpy": "2.3.5",
+      "pandas": "3.0.1",
+      "scipy": "not installed in audit runtime",
+      "torch": "not installed in audit runtime"
+    },
+    "primary_neural_runtime_seconds": 868.0690966999973,
+    "primary_neural_runtime_minutes": 14.467818278333288,
+    "primary_epochs": 1200,
+    "primary_seeds": [
+      11,
+      23,
+      37,
+      53,
+      71,
+      89,
+      107,
+      127,
+      151,
+      173,
+      197,
+      223,
+      251,
+      281,
+      313,
+      347,
+      383,
+      421,
+      463,
+      509
+    ],
+    "models": [
+      "data_only",
+      "pinn_shifted_first_order",
+      "pinn_avrami"
+    ]
+  }
+}

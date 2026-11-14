@@ -1,0 +1,69 @@
+{
+  "curves": 61,
+  "time_scaling": "training_only",
+  "train_observation_fraction": 0.5,
+  "gate_slope": 200.0,
+  "activation_transition_width_tau_approximately": 0.02,
+  "candidate_models": [
+    "first_order",
+    "shifted_first_order",
+    "shifted_avrami",
+    "gompertz"
+  ],
+  "selection_criterion": "pre-specified pooled terminal RMSE; curve-balanced metrics are complementary",
+  "best_terminal_model": "shifted_first_order",
+  "terminal_metrics": [
+    {
+      "model": "shifted_first_order",
+      "split": "terminal_test",
+      "observations": 366,
+      "mae_percent": 0.21380845901080436,
+      "rmse_percent": 0.41887880139651423,
+      "r2": 0.39732032553414,
+      "holdout_variance": 0.29113218463006196,
+      "mean_curve_mae_percent": 0.24740838283181033,
+      "median_curve_mae_percent": 0.05001869175512704,
+      "mean_curve_rmse_percent": 0.2606573479871412,
+      "median_curve_rmse_percent": 0.05895941300493164
+    },
+    {
+      "model": "first_order",
+      "split": "terminal_test",
+      "observations": 366,
+      "mae_percent": 0.2309224573764187,
+      "rmse_percent": 0.4625396774920984,
+      "r2": 0.2651346551520952,
+      "holdout_variance": 0.29113218463006196,
+      "mean_curve_mae_percent": 0.27652159777942886,
+      "median_curve_mae_percent": 0.10095017261062868,
+      "mean_curve_rmse_percent": 0.28583650290708223,
+      "median_curve_rmse_percent": 0.10162061897652064
+    },
+    {
+      "model": "gompertz",
+      "split": "terminal_test",
+      "observations": 366,
+      "mae_percent": 0.36310894931706195,
+      "rmse_percent": 0.7541929661659557,
+      "r2": -0.9537758456248262,
+      "holdout_variance": 0.29113218463006196,
+      "mean_curve_mae_percent": 0.5335827360221272,
+      "median_curve_mae_percent": 0.0933946645699036,
+      "mean_curve_rmse_percent": 0.5486871197267121,
+      "median_curve_rmse_percent": 0.09531175723496464
+    },
+    {
+      "model": "shifted_avrami",
+      "split": "terminal_test",
+      "observations": 366,
+      "mae_percent": 0.3593437140504394,
+      "rmse_percent": 0.8276578788211512,
+      "r2": -1.3529434412934132,
+      "holdout_variance": 0.29113218463006196,
+      "mean_curve_mae_percent": 0.5321543654990012,
+      "median_curve_mae_percent": 0.0740709774740382,
+      "mean_curve_rmse_percent": 0.5484125404224937,
+      "median_curve_rmse_percent": 0.08179865330941768
+    }
+  ]
+}

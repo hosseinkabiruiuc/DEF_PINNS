@@ -1,0 +1,7 @@
+"variant","model","seeds","mean_curve_mae_percent"
+"embedding_dim_2","pinn_shifted_first_order","5","0.06465907689516152"
+"embedding_dim_4","pinn_shifted_first_order","5","0.06877837260269602"
+"embedding_dim_16","pinn_shifted_first_order","5","0.05925055558981544"
+"embedding_dim_8","pinn_shifted_first_order","5","0.05702901240133742"
+"no_embedding","pinn_shifted_first_order","10","0.12164194440079035"
+"no_embedding","data_only","10","0.13201922034242092"

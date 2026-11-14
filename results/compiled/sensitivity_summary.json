@@ -1,0 +1,5 @@
+{
+  "selected_physics_weight": 0.0003,
+  "runs_compiled": 22,
+  "note": "Leave-one-source-out is an influence analysis on the remaining sources, not prediction of the omitted source."
+}

@@ -1,0 +1,5 @@
+model,curves,median_information_condition_number,maximum_information_condition_number,median_maximum_abs_parameter_correlation,curves_with_any_bound_hit,total_bound_hits,converged_fits
+first_order,61,17179229.82439653,10641112832123.072,0.9996599049636894,39,44,61
+gompertz,61,42414.09381949533,3.182503382076657e+17,0.9633441812944026,9,10,61
+shifted_avrami,61,741120.3624272344,2.088005726396994e+25,0.9964822103657146,45,55,61
+shifted_first_order,61,63085168.20090287,1.617317825094907e+17,0.9828523890718618,25,29,61

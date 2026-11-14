@@ -1,0 +1,6 @@
+onset_bound_status,response_class,curves
+bounded: activation observed in training,large,25
+bounded: activation observed in training,moderate,20
+bounded: activation observed in training,negligible,1
+unbounded: activation not observed in training,large,1
+unbounded: activation not observed in training,negligible,14

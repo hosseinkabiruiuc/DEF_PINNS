@@ -1,0 +1,15 @@
+basis,metric,candidate,comparator,relative_reduction_percent_from_unrounded_values
+20-seed pooled-observation mean,mae_percent,0.0632722584940095,0.08555246513196611,26.042740678002698
+20-seed pooled-observation mean,rmse_percent,0.1221825711947244,0.14854745996031118,17.748461517033643
+curve-level: threshold PINN vs data-only,mae_percent,0.0591527178577573,0.079313841016518,25.41942604262719
+curve-level: threshold PINN vs data-only,rmse_percent,0.0690000568071168,0.0913838545833057,24.49425872683428
+curve-level: Avrami PINN vs data-only,mae_percent,0.1716617259563506,0.079313841016518,-116.43350486657191
+curve-level: Avrami PINN vs data-only,rmse_percent,0.1875797922545678,0.0913838545833057,-105.26579132593899
+curve-level: threshold PINN vs Avrami PINN,mae_percent,0.0591527178577573,0.1716617259563506,65.54111434671326
+curve-level: threshold PINN vs Avrami PINN,rmse_percent,0.0690000568071168,0.1875797922545678,63.215623613936195
+curve-level: direct threshold fit vs threshold PINN,mae_percent,0.0757864187312343,0.0591527178577573,-28.1199266506664
+curve-level: direct threshold fit vs threshold PINN,rmse_percent,0.0892100903610094,0.0690000568071168,-29.289879587183325
+curve-level: threshold PINN vs persistence,mae_percent,0.0591527178577573,0.0630821275435857,6.229037984036656
+curve-level: threshold PINN vs persistence,rmse_percent,0.0690000568071168,0.0718659265086475,3.9878003954848573
+curve-level: threshold PINN vs linear extrapolation,mae_percent,0.0591527178577573,0.1090743759641618,45.76845630802149
+curve-level: threshold PINN vs linear extrapolation,rmse_percent,0.0690000568071168,0.1280164267945039,46.10062276001664

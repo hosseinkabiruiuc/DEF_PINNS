@@ -1,0 +1,13 @@
+bic_winner,response_class,curves,table,onset_at_upper_bound
+first_order,moderate,3,bic_winners,
+first_order,negligible,11,bic_winners,
+gompertz,large,17,bic_winners,
+gompertz,moderate,7,bic_winners,
+gompertz,negligible,4,bic_winners,
+shifted_avrami,large,8,bic_winners,
+shifted_avrami,moderate,5,bic_winners,
+shifted_first_order,large,1,bic_winners,
+shifted_first_order,moderate,5,bic_winners,
+,large,26,onset_response_crosstab,False
+,moderate,20,onset_response_crosstab,False
+,negligible,15,onset_response_crosstab,False

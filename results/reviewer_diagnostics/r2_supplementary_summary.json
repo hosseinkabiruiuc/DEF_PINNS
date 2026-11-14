@@ -1,0 +1,46 @@
+{
+  "duration_days_five_number": [
+    193.872,
+    194.037,
+    363.983,
+    580.885,
+    1854.158
+  ],
+  "tau_max_five_number": [
+    1.177686333656311,
+    1.3900845050811768,
+    1.390879511833191,
+    1.5628197193145752,
+    2.367525577545166
+  ],
+  "threshold_resolution_restricted_n": 46,
+  "threshold_resolution_restricted_five_number": [
+    0.029751517635225544,
+    0.037806801741595134,
+    0.04712837532183842,
+    0.07856925705420516,
+    0.3025445134950736
+  ],
+  "top_five_squared_error_contributors": [
+    {
+      "curve_id": "Martin2023_Fig4_HR_continuous_immersion",
+      "squared_error_advantage": 0.27349689874722705
+    },
+    {
+      "curve_id": "Pavoine2007_Fig1_triangle_2d",
+      "squared_error_advantage": 0.26134034599624784
+    },
+    {
+      "curve_id": "Pavoine2007_Fig3_circle_6h",
+      "squared_error_advantage": 0.20772047851989378
+    },
+    {
+      "curve_id": "Tiecher2021_Fig2_CP_V-ARI",
+      "squared_error_advantage": 0.1391411640119634
+    },
+    {
+      "curve_id": "Pavoine2007_Fig2_square_10d",
+      "squared_error_advantage": 0.09042442636277476
+    }
+  ]
+}

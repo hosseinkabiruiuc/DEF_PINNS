@@ -1,0 +1,5 @@
+model,definition,threshold_rmse_percent,severe_curve_count,maximum_curve_rmse_percent
+first_order,"curve terminal RMSE > max(0.25% strain, 5 x model median)",0.25,7,0.9955605289028466
+gompertz,"curve terminal RMSE > max(0.25% strain, 5 x model median)",0.25,4,2.1134202668449604
+shifted_avrami,"curve terminal RMSE > max(0.25% strain, 5 x model median)",0.25,3,2.742376989023231
+shifted_first_order,"curve terminal RMSE > max(0.25% strain, 5 x model median)",0.25,4,0.5149658888545178

@@ -1,0 +1,393 @@
+[
+  {
+    "file": "src/build_def_model_dataset.py",
+    "original_sha256": "f2dd5b08d8dacfe6d7807243c942c3f0bebeeeb24fd1f5d4c512c8d046cb6d53",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Build the versioned, quality-screened DEF kinetics modeling dataset."
+      },
+      {
+        "line": 50,
+        "text": "Flag vector-style groups that cannot be defended as single trajectories."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      }
+    ]
+  },
+  {
+    "file": "src/train_def_pinn_models_v3.py",
+    "original_sha256": "ea1e20d18e9dc33967a660939abca73e0a6b74d4b3d446c505bce2fc064d9b29",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Train endpoint-blind matched data-only and physics-informed DEF networks."
+      },
+      {
+        "line": 38,
+        "text": "Exact anchored logistic clock; the floor only stabilizes fractional powers."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      },
+      {
+        "line": 181,
+        "text": "# For descriptor-only source holdout, use the source curve's planned"
+      },
+      {
+        "line": 182,
+        "text": "# preterminal time boundary but never its response values."
+      },
+      {
+        "line": 296,
+        "text": "# Stratified jitter is regenerated every epoch over a fixed endpoint-blind horizon."
+      }
+    ]
+  },
+  {
+    "file": "src/fit_def_kinetic_candidates_v3.py",
+    "original_sha256": "52b5b3d04af8cd4dd4c29971aa3abc39b884a2157232130a5710192ca96e0b9e",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Fit reduced DEF kinetics with endpoint-blind scaling and robust multistart optimization."
+      },
+      {
+        "line": 23,
+        "text": "Integral of the sigmoid gate from zero to t, exactly enforcing clock(0)=0."
+      },
+      {
+        "line": 52,
+        "text": "Larive sigmoid used in the DEF expansion literature."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      }
+    ]
+  },
+  {
+    "file": "src/compile_v3_results.py",
+    "original_sha256": "20a68bc222aa7084989b6e610cefeaacf47c944ee12d9958c9c6328c9c29ebe5",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Compile curve-level inference, baselines, subgroup results, and diagnostics for v3."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      }
+    ]
+  },
+  {
+    "file": "src/verify_def_equations_v3.py",
+    "original_sha256": "44fc19e8081376a6b70cc7e13c5cdd2f4fbaf54b6f0c3b49a1e4dc5d581326d6",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Independent symbolic and numerical checks for the revised DEF governing equations."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      },
+      {
+        "line": 19,
+        "text": "# Component vectors are [CaO, Al2O3, SO3, H2O]."
+      },
+      {
+        "line": 119,
+        "text": "# Dimensions are represented as powers of [strain, time]."
+      }
+    ]
+  },
+  {
+    "file": "src/collect_def_literature.py",
+    "original_sha256": "3c73c59d841cf67636503678d1456ce6ecf1ed10a8a5482c1ce20b1cf54281e5",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "\nCollect and validate open-access DEF/cementitious-material literature.\n\nThis script is intentionally conservative: it keeps the discovery metadata,\ndownload attempts, validation results, deduplication decisions, and screening\nreasons so the literature corpus can be audited and reproduced.\n"
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      },
+      {
+        "line": 31,
+        "text": "# pragma: no cover - handled at runtime"
+      }
+    ]
+  },
+  {
+    "file": "src/extend_strict_def_corpus.py",
+    "original_sha256": "239824b1d7b6d3efd6795019fcc5329d6a2cabc678c9f7d614e9f66d304dc0c6",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Deep exact-query discovery and strict extension of the verified DEF corpus."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      }
+    ]
+  },
+  {
+    "file": "src/audit_def_relevance.py",
+    "original_sha256": "d28efbce79ef90a8cae3c05ae81ddd4e777d3edaed302be8da65eb65cdb4dd6e",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Strict second-pass relevance audit for the downloaded DEF corpus."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      }
+    ]
+  },
+  {
+    "file": "src/analyze_def_corpus.py",
+    "original_sha256": "f1a045298821f753ee1c5421084367809aaba78341cf5952287c6a12f368053e",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Page-level scientific analysis of the verified DEF PDF corpus."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      }
+    ]
+  },
+  {
+    "file": "src/qa_all_vector_extractions.py",
+    "original_sha256": "7702bb38e7cb028fa042a7827592b0401478f4c42aa61cf2aa9933b4135f102f",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Create page overlays and plot crops for every accepted vector extraction."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      }
+    ]
+  },
+  {
+    "file": "src/extract_aubert2013_vector.py",
+    "original_sha256": "f8e05310a7f2dee9078c88c2f223301ccdc33f68e1f40976cc67a97c40bd4689",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Extract five-year DEF expansion curves from Aubert et al. (2013)."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      }
+    ]
+  },
+  {
+    "file": "src/extract_kawabata2023_vector.py",
+    "original_sha256": "465c461a04ed7306cc0943f5a0f28329c19d2289046406b4a72b2384f344e933",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Extract position-resolved restrained DEF expansion data from Kawabata et al. (2023)."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      }
+    ]
+  },
+  {
+    "file": "src/extract_martin2023_vector.py",
+    "original_sha256": "449059ab7fdaed7e03e5e524287ed257c5c385e79a9e232b95a256f4dc717448",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Extract continuous-immersion and wet/dry DEF curves from Martin et al. (2023)."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      }
+    ]
+  },
+  {
+    "file": "src/extract_pavoine2007_vector.py",
+    "original_sha256": "8b43ba42af19dc0202b1e44d96625243392abd45093bf82e8ff6a514693e5846",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Extract vector marker coordinates from Brunetaud et al. (2007) Figures 1-4."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      },
+      {
+        "line": 132,
+        "text": "# The paper prints every y tick with a decimal comma. Requiring that"
+      },
+      {
+        "line": 133,
+        "text": "# exact vocabulary prevents nearby legend numerals from entering the"
+      },
+      {
+        "line": 134,
+        "text": "# calibration on Figures 3 and 4."
+      }
+    ]
+  },
+  {
+    "file": "src/extract_tiecher2021_vector.py",
+    "original_sha256": "5c6ed8edfd6cd444fc826c381a3afddec3c95b67806a8bd4264607515c0be3ae",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 2,
+        "text": "Extract Figure 2 vector markers from Tiecher et al. (2021)."
+      },
+      {
+        "line": 1,
+        "text": "#!/usr/bin/env python"
+      }
+    ]
+  },
+  {
+    "file": "src/independent_submission_checks.py",
+    "original_sha256": "69f6a40616b1c8dd804a644f4a8d28f4e4b8635c2c5002075215de28641494f3",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 1,
+        "text": "Independent checks on source files, equations, and prediction-level statistics."
+      }
+    ]
+  },
+  {
+    "file": "src/make_c100_figures.py",
+    "original_sha256": "e837742a34732e85f4f46e48b5d6fbb99496657c637799d00de2d419484dd3e7",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 91,
+        "text": "Apply one visible tick and typography standard after locators are set."
+      },
+      {
+        "line": 107,
+        "text": "Fail figure generation when primary panel boxes drift out of alignment."
+      }
+    ]
+  },
+  {
+    "file": "src/run_c100_revision_analyses.py",
+    "original_sha256": "c45ba1508865d173bf3f7e3f02ff8274bc74d997ce45f87ec7304f7a5d0fe14d",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 116,
+        "text": "Empirical-Bayes nonlinear mixed-effects benchmark with curve random effects.\n\n    Individual curve parameters are shrunk toward descriptor/source-conditioned means.\n    The shrinkage variances are estimated from the initial direct fits and updated twice.\n    "
+      }
+    ]
+  },
+  {
+    "file": "src/r2_supplementary_analyses.py",
+    "original_sha256": "fcd9ebf09ea7b4bd806b91191d24645bc62d1de6c17e0f807476b87ea0ca0de6",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": []
+  },
+  {
+    "file": "src/address_review75.py",
+    "original_sha256": "9e1dff35cc825f80cd3f9c1e7120b5164272e0d844e450eabd46a88ef3d1067d",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": []
+  },
+  {
+    "file": "src/direct_support_matched.py",
+    "original_sha256": "c66c26ab194ee930e073e76749c338ff86c73dd1dbfe9aeee99554f40f1a0f26",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 1,
+        "text": "Fit DFO with the neural capacity, rate, and response-derived onset supports."
+      }
+    ]
+  },
+  {
+    "file": "src/refresh_completed_diagnostics.py",
+    "original_sha256": "643144adb8c8072ae8d933ff847d6ecffdade24998c2d84221283196208a44b7",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": [
+      {
+        "line": 1,
+        "text": "Refresh diagnostics from the completed primary predictions without refitting."
+      }
+    ]
+  },
+  {
+    "file": "src/analyze_current_review.py",
+    "original_sha256": "a14d5fa89c45aeddb16d3c08f021f19e5019eef9e4cf16909bd128b428aaa504",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": []
+  },
+  {
+    "file": "src/complete_review_comparators.py",
+    "original_sha256": "4c603b29943348ea838882897b89c290c300ccd8659c123efc9ef13c654d3d80",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": []
+  },
+  {
+    "file": "src/verify_current_review.py",
+    "original_sha256": "9ffb16ce679e15585992c00ad29bb9cdec5453ad2d267162b4e4edcb642767e7",
+    "documentation_removed_without_executable_changes": true,
+    "repository_path_rewrite": "AST path-component mapping; no numerical expressions changed",
+    "notes": []
+  }
+]

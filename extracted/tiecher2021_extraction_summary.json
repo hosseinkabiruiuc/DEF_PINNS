@@ -1,0 +1,19 @@
+{
+  "record_id": "DEF-000753",
+  "curves": 4,
+  "points": 159,
+  "curve_point_counts": {
+    "CP V-ARI": 41,
+    "CP II-F": 37,
+    "CP II-Z": 39,
+    "CP IV": 42
+  },
+  "axis_calibration_r2_time": 0.9999999953424792,
+  "axis_calibration_r2_expansion": 0.9999999779957629,
+  "cross_check_terminal_expansion_percent": {
+    "CP V-ARI": 1.79,
+    "CP II-F": 0.45,
+    "CP II-Z": 0.08,
+    "CP IV": 0.1
+  }
+}

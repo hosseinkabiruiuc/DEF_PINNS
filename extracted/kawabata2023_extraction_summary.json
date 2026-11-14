@@ -1,0 +1,51 @@
+{
+  "record_id": "DEF-001010",
+  "curves": 22,
+  "points": 330,
+  "curve_point_counts": {
+    "Kawabata2023_Fig5a_100mm": 16,
+    "Kawabata2023_Fig5a_200mm": 15,
+    "Kawabata2023_Fig5a_300mm": 15,
+    "Kawabata2023_Fig5a_400mm": 15,
+    "Kawabata2023_Fig5a_500mm": 15,
+    "Kawabata2023_Fig5b_150mm": 15,
+    "Kawabata2023_Fig5b_250mm": 15,
+    "Kawabata2023_Fig5b_350mm": 15,
+    "Kawabata2023_Fig5b_450mm": 15,
+    "Kawabata2023_Fig5b_50mm": 12,
+    "Kawabata2023_Fig5b_550mm": 15,
+    "Kawabata2023_Fig6a_100mm": 16,
+    "Kawabata2023_Fig6a_200mm": 15,
+    "Kawabata2023_Fig6a_300mm": 15,
+    "Kawabata2023_Fig6a_400mm": 15,
+    "Kawabata2023_Fig6a_500mm": 15,
+    "Kawabata2023_Fig6b_150mm": 15,
+    "Kawabata2023_Fig6b_250mm": 15,
+    "Kawabata2023_Fig6b_350mm": 15,
+    "Kawabata2023_Fig6b_450mm": 15,
+    "Kawabata2023_Fig6b_50mm": 16,
+    "Kawabata2023_Fig6b_550mm": 15
+  },
+  "calibrations": [
+    {
+      "figure": "Fig5a",
+      "time_r2": 0.9999999831401136,
+      "expansion_r2": 0.9999998898173896
+    },
+    {
+      "figure": "Fig5b",
+      "time_r2": 0.9999999465260663,
+      "expansion_r2": 0.9999998529489845
+    },
+    {
+      "figure": "Fig6a",
+      "time_r2": 0.9999999363398008,
+      "expansion_r2": 1.0
+    },
+    {
+      "figure": "Fig6b",
+      "time_r2": 0.9999999999690061,
+      "expansion_r2": 1.0
+    }
+  ]
+}

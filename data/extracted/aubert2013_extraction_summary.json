@@ -1,0 +1,19 @@
+{
+  "record_id": "DEF-000998",
+  "curves": 4,
+  "points": 105,
+  "curve_point_counts": {
+    "C20": 22,
+    "CN20": 27,
+    "CS20": 28,
+    "CS40": 28
+  },
+  "axis_calibration_r2_time": 0.9999999999707554,
+  "axis_calibration_r2_expansion": 0.9999999500631258,
+  "reported_time_to_0_15_percent_days": {
+    "CS40": 125,
+    "CS20": 180,
+    "CN20": 670,
+    "C20": 1460
+  }
+}

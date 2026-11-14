@@ -1,0 +1,9 @@
+{
+  "audited_pdfs": 438,
+  "direct_DEF": 0,
+  "DEF_support": 0,
+  "strict_retained_total": 0,
+  "strict_rejects": 438,
+  "audit_csv": "04_screening\\strict_relevance_quarantine_audit.csv",
+  "applied": false
+}

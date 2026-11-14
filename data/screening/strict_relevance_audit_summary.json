@@ -1,0 +1,9 @@
+{
+  "audited_pdfs": 92,
+  "direct_DEF": 86,
+  "DEF_support": 6,
+  "strict_retained_total": 92,
+  "strict_rejects": 0,
+  "audit_csv": "04_screening\\strict_relevance_audit.csv",
+  "applied": false
+}

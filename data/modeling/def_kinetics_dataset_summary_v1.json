@@ -1,0 +1,36 @@
+{
+  "dataset_version": "v1",
+  "source_studies": 5,
+  "curves": 74,
+  "raw_extracted_observations": 2410,
+  "accepted_observations_after_uniform_cap": 2343,
+  "train_observations": 1849,
+  "terminal_test_observations": 494,
+  "time_range_days": [
+    0.0,
+    1865.866
+  ],
+  "expansion_range_percent_raw": [
+    -0.002728,
+    2.0425
+  ],
+  "response_classes": {
+    "large": 28,
+    "moderate": 25,
+    "negligible": 21
+  },
+  "study_curve_counts": {
+    "DEF-000170": 40,
+    "DEF-000753": 4,
+    "DEF-000998": 4,
+    "DEF-001001": 4,
+    "DEF-001010": 22
+  },
+  "quality_rules": {
+    "axis_calibration_r2_minimum": 0.997,
+    "minimum_points_per_curve": 6,
+    "maximum_points_per_curve": 60,
+    "terminal_holdout_fraction": 0.2,
+    "negative_measurement_noise_clipped_for_physical_model": true
+  }
+}

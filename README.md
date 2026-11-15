@@ -122,10 +122,6 @@ For the separately tuned data-only arm, use `--models data_only --learning-rate 
 
 The manuscript is not yet published. Use its title and authors when referring to this working study; do not assign a journal year, article number, or DOI that has not been issued. Original experimental sources remain attributable to their authors through the supplied metadata.
 
-## Rights and Provenance
-
-No redistribution license is assigned automatically. The authors must select a suitable code license and confirm rights to derived data before public release. Source publications retain their own terms. Python comments and docstrings are kept outside executable code in `docs/code_notes.json`, including scientific assumptions and provenance. Package preparation does not establish human-only authorship.
-
 ## Contact
 
 Hossein Kabir: hkabir2@illinois.edu<br>
